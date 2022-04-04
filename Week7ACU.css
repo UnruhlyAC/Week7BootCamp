@@ -1,0 +1,84 @@
+
+*
+{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: blanchedalmond;
+}
+
+h1
+{
+    color: red; font-size: xx-large;
+    text-align: center;
+}
+h2{
+    color: royalblue; font-size: x-large;
+}
+
+h3
+{
+    color: royalblue; font-size: large;
+    
+}
+div{
+    padding: 4%; border: 3px; color: black;
+}
+img{
+    max-height: 390px; align-items: center;
+}
+
+form{
+    margin: 25px
+}
+.border1{
+    border-top: 10px; color: blue; 
+    border-left: 10px; color: black;
+}
+table {
+border-collapse: collapse;
+width: 20%;
+border-style: solid;
+border-color: royalblue;
+border-radius: 3px;
+}
+th, td {
+    padding: 9px;
+    text-align: left;
+    border-right: 1px dotted red;
+}
+tr:nth-child(even){
+    background-color: lightblue;
+}
+tr :hover {
+    text: 20pt solidcolor red;
+    
+}
+.navigate:hover {
+    text-emphasis-color: white;
+    
+}
+
+.every-other li:nth-child(odd){
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.every-other li:nth-child(even){
+    background-color: aqua;
+}
+
+#large-paragraph{
+    font-size: 28px; font-weight: bold; color: black;
+    text-align: center;
+}
+ul {
+    float: inline-start;
+text-shadow: 1px grey;
+font-size: large;
+}
+
+#box-model1 {
+    padding: 25px;
+    border-style: dotted;
+    border-width: 2px ;
+    margin: 35 px;
+    background-color: aqua;
+}
+// All elements must be styled id //
